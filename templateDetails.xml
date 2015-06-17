@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+	<name>xD_Xomdes.tk</name>
+	<creationDate>26 Marth 2012</creationDate>
+	<author>[xD-Style] Xom and Diman</author>
+	<authorEmail>10_08_1995@mail.ru</authorEmail>
+	<authorUrl>xomdes.tk</authorUrl>
+	<copyright>Copyright (C) 2012-2013 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License</license>
+	<version>1.4.2</version>
+	<description>Дизайн от молодой и креативной студии которая так и не начала существовать xD-Style Художник-Дизайнер: Xom, Верстальщик: Diman</description>
+
+	<files>
+		<folder>css</folder>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>component.php</filename>
+		<filename>opacity.png</filename>
+		<filename>noizeMC.jpg</filename>
+	</files>
+
+	<positions>
+		<position>top-menu</position>
+		<position>top-banner</position>
+		<position>recomend</position>
+		<position>interes</position>
+		<position>lastblog</position>
+		<position>cont-1</position>
+		<position>cont-2</position>
+		<position>video</position>
+		<position>bot-block1</position>
+		<position>bot-block2</position>
+		<position>bot-block3</position>
+		<position>debug</position>
+	</positions>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">		
+				<field name="sitetitle_part1"  type="text" default="X"
+					label="Лого - чать 1"
+					description="Первая часть лого выделенная синим цветом"
+					filter="string" />
+				
+				<field name="sitetitle_part2"  type="text" default="OMdes.tk"
+					label="Лого - чать 2"
+					description="Вторая часть лого выделенная белым зветом"
+					filter="string" />	
+				
+				<field name="iinteres"  type="text" default="Меня интересует:"
+					label="Надпись под шапкой"
+					description="Название блока справа, под шапкой"
+					filter="string" />
+					
+				<field name="ilike"  type="text" default="Мне нравится:"
+					label="Название блока под Последнее в блоге"
+					description="Название блока под Последнее в блоге"
+					filter="string" />
+					
+			</fieldset>
+		</fields>
+	</config>
+</extension>
